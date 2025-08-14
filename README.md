@@ -119,6 +119,30 @@ ResNet34+UNet is a proven architecture for biomedical segmentation, combining th
 
 ---
 
+## Sample Outputs
+
+Below are sample predictions from the trained **ResNet34-U-Net** model on SICAPv2 histopathology patches.  
+
+Each example shows:  
+- **Left:** Original H&E-stained patch  
+- **Middle:** Predicted segmentation mask  
+- **Right:** Ground truth mask  
+- **Metrics:** Dice score, IoU, and binarization threshold (top-left corner in green text)  
+
+| Sample 1 | Sample 2 |
+|----------|----------|
+| <img src="sample_001.png" width="500"> | <img src="sample_002.png" width="500"> |
+
+| Sample 3 | Sample 4 |
+|----------|----------|
+| <img src="sample_003.png" width="500"> | <img src="sample_004.png" width="500"> |
+
+| Sample 5 |
+|----------|
+| <img src="sample_005.png" width="500"> |
+
+---
+
 ## How to Reproduce
 
 1. **Download the Notebooks**  
