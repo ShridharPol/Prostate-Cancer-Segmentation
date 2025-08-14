@@ -8,6 +8,10 @@ Two segmentation approaches are implemented and compared:
 
 The aim was to evaluate a classical computer vision method against a modern CNN-based segmentation model.
 
+**Problem:** Accurate segmentation of prostate glands in histopathology images is challenging and impacts downstream diagnosis.  
+**Solution:** Compared a classical watershed-based method (with CLAHE) against a deep learning approach (ResNet34+UNet) using SICAPv2.  
+**Outcome:** Deep learning approach achieved significantly higher segmentation accuracy over the classical method.
+
 ---
 
 ## Dataset
