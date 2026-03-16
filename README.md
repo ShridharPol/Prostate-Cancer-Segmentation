@@ -12,6 +12,8 @@ The aim was to evaluate a classical computer vision method against a modern CNN-
 **Solution:** Compared a classical watershed-based method (with CLAHE) against a deep learning approach (ResNet34+UNet) using SICAPv2.  
 **Outcome:** Deep learning approach achieved significantly higher segmentation accuracy over the classical method.
 
+> Note: This project was developed during my internship at Hamdan InfoCom, Belagavi, exploring deep learning applications for biomedical image analysis.
+
 ---
 
 ## Dataset
